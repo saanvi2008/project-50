@@ -1,0 +1,42 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    color: rgb(231, 165, 89);
+    font-family: serif;
+    font-weight: 400;
+}
+body{
+    background-color: rgb(230, 159, 93);
+}
+p{
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(221, 5, 77);
+    font-style: italic;
+}
+h3{
+    font-size: large;
+    font: large;
+    font-family: Roboto;
+    color: purple;
+    font-style: italic;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.origami{
+    border-radius: 20px;
+    background-color: white;
+
+    width : 310px;
+    font-family :cursive;
+}
+.grid img{
+    border: 5px solid black;
+    border-radius: 50px;
+    border-style: dashed;
+}
